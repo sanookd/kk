@@ -287,7 +287,7 @@
             // ทองหลอม
             // ลูกค้าทั่วไป: ((ราคาทอง*%ทอง*0.0656)*น้ำหนัก)-5%
             const baseValue1 = ((goldPrice * (p1 / 100) * 0.0656) * w1);
-            const amount1 = baseValue1 * 0.95; // -5%
+            const amount1 = baseValue1 * 0.97; // -3%
             const profit1 = (((goldPrice + 1000) * (p1 / 100) * 0.0656) * w1) - amount1;
             const pricePerGram1 = w1 > 0 ? (amount1 / w1) : 0; // ราคาต่อกรัม
             
